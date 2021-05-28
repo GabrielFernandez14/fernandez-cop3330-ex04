@@ -32,8 +32,8 @@ public class App
         Scanner adverbInput = new Scanner(System.in);
         String adverb = adverbInput.next();
 
-        // Print out complete mad lib
-        System.out.println("Do you " + verb + " your " + adjective + " "
-                            + noun + " " + adverb + "? That's hilarious!");
+        // Print out complete mad lib using string interpolation
+        String mad_lib = String.format("Do you %s your %s %s %s? That's hilarious!", verb, adjective, noun, adverb);
+        System.out.println(mad_lib);
     }
 }
