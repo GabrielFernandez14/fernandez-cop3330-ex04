@@ -1,3 +1,9 @@
+/* Gabriel Fernandez
+ * COP3330 - Summer CV01
+ * "Motivated" Practice Exercises
+ * Exercise 04 - Mad Lib
+ */
+
 package org.example;
 import java.util.Scanner;
 
